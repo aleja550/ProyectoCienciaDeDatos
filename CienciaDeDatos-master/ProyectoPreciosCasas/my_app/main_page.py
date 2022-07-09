@@ -29,7 +29,7 @@ st.header('Propuesto por [Alejandra Sandoval](https://www.linkedin.com/in/yiceth
 
 # @st.cache
 def get_data():
-     url = 'https://raw.githubusercontent.com/sebmatecho/CienciaDeDatos/master/ProyectoPreciosCasas/data/kc_house_data.csv'
+     url = 'https://raw.githubusercontent.com/aleja550/ProyectoCienciaDeDatos/main/CienciaDeDatos-master/ProyectoPreciosCasas/data/kc_house_data.csv'
      return pd.read_csv(url)
 
 data = get_data()
